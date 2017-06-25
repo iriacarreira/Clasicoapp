@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Displays the given score for Team A.
      */
-    public void displayQuantity(int score) {
+    public void displayForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void addGoalTeamA (View v) {
         scoreTeamA = scoreTeamA + 1;
-        displayQuantity(scoreTeamA);
+        displayForTeamA(scoreTeamA);
     }
 
     /**

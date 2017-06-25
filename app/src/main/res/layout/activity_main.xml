@@ -174,7 +174,7 @@
         </LinearLayout>
 
         <View
-            android:layout_width="@dimen/one_dim"
+            android:layout_width="@dimen/minimum_padding"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/activity_horizontal_margin"
             android:background="@android:color/black" />
@@ -194,7 +194,7 @@
                 android:layout_width="@dimen/image_dimensions"
                 android:layout_height="@dimen/image_dimensions"
                 android:layout_gravity="center_horizontal"
-                android:padding="@dimen/one_dim"
+                android:padding="@dimen/minimum_padding"
                 android:src="@drawable/rml" />
 
 
@@ -344,8 +344,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:onClick="resetScore"
-        android:text="Reset"
         android:padding="@dimen/StandardPadding"
+        android:text="Reset"
         android:textColor="@color/colorPrimaryLight"
         android:textStyle="bold"
 

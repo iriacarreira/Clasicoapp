@@ -13,7 +13,6 @@
     <dimen name="minimum_padding">1dp</dimen>
     <dimen name="bottom_padding">12dp</dimen>
     <dimen name="medium_padding">4dp</dimen>
-    <dimen name="one_dim">1dp</dimen>
     <dimen name="margin_bottom">8dp</dimen>
 
 </resources>
