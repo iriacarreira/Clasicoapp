@@ -118,7 +118,6 @@ public class MainActivity extends AppCompatActivity {
     public void displayForShotTeamA(int shotTeamA) {
         TextView shotAView = (TextView) findViewById(R.id.team_a_shot);
         shotAView.setText(String.valueOf(shotTeamA));
-
     }
     /**
      * Increase the corner for Team A by 1 .
@@ -171,7 +170,6 @@ public class MainActivity extends AppCompatActivity {
     public void displayForPenaltyTeamB(int penaltyTeamB) {
         TextView penaltyBView = (TextView) findViewById(R.id.team_b_penalty);
         penaltyBView.setText(String.valueOf(penaltyTeamB));
-
     }
     /**
      * Increase the shot for Team B by 1 .
@@ -188,7 +186,6 @@ public class MainActivity extends AppCompatActivity {
     public void displayForShotTeamB (int shotTeamB) {
         TextView shotAView = (TextView) findViewById(R.id.team_b_shot);
         shotAView.setText(String.valueOf(shotTeamB));
-
     }
     /**
      * Increase the corner for Team B by 1 .
@@ -205,7 +202,6 @@ public class MainActivity extends AppCompatActivity {
     public void displayForCornerTeamB (int cornerTeamB) {
         TextView shotAView = (TextView) findViewById(R.id.team_b_corner);
         shotAView.setText(String.valueOf(cornerTeamB));
-
     }
 
 

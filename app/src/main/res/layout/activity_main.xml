@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -38,16 +37,14 @@
                 android:textSize="@dimen/TextScore" />
 
 
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/margin_bottom"
-                    android:onClick="addGoalTeamA"
-                    android:text="@string/Goal"
-                    android:textColor="@color/colorPrimaryLight"
-                    android:textStyle="bold"
-                    />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:onClick="addGoalTeamA"
+                android:text="@string/Goal"
+                android:textColor="@color/colorPrimaryLight"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -61,7 +58,7 @@
                     android:onClick="addPenaltyForTeamA"
                     android:text="@string/Penalty"
                     android:textColor="@color/colorPrimaryLight"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/team_a_penalty"
@@ -69,7 +66,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="@dimen/StandardPadding"
-                    android:text="0"/>
+                    android:text="0" />
 
             </LinearLayout>
 
@@ -85,7 +82,7 @@
                     android:onClick="addShotForTeamA"
                     android:text="@string/Shot"
                     android:textColor="@color/colorPrimaryLight"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/team_a_shot"
@@ -93,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="@dimen/StandardPadding"
-                    android:text="0"/>
+                    android:text="0" />
 
             </LinearLayout>
 
@@ -109,7 +106,7 @@
                     android:onClick="addCornerForTeamA"
                     android:text="@string/Corner"
                     android:textColor="@color/colorPrimaryLight"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/team_a_corner"
@@ -117,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="@dimen/StandardPadding"
-                    android:text="0"/>
+                    android:text="0" />
 
             </LinearLayout>
 
@@ -130,9 +127,7 @@
                     android:layout_width="@dimen/cardWidth"
                     android:layout_height="@dimen/cardHeight"
                     android:background="@color/RedCard"
-                    android:onClick="addOneRedTeamA"
-
-                    />
+                    android:onClick="addOneRedTeamA" />
 
                 <TextView
                     android:id="@+id/Team_a_red"
@@ -152,9 +147,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/StandardPadding"
-                    android:text="0"
-
-                    />
+                    android:text="0" />
 
             </LinearLayout>
 
@@ -175,7 +168,6 @@
             android:layout_marginTop="@dimen/activity_horizontal_margin"
             android:layout_weight="1"
             android:orientation="vertical">
-
 
 
             <ImageView
@@ -204,7 +196,7 @@
                 android:onClick="addGoalTeamB"
                 android:text="@string/Goal"
                 android:textColor="@color/colorPrimaryLight"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -218,7 +210,7 @@
                     android:onClick="addPenaltyForTeamB"
                     android:text="@string/Penalty"
                     android:textColor="@color/colorPrimaryLight"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/team_b_penalty"
@@ -226,7 +218,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="@dimen/StandardPadding"
-                    android:text="0"/>
+                    android:text="0" />
 
             </LinearLayout>
 
@@ -242,7 +234,7 @@
                     android:onClick="addShotForTeamB"
                     android:text="@string/Shot"
                     android:textColor="@color/colorPrimaryLight"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/team_b_shot"
@@ -250,7 +242,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="@dimen/StandardPadding"
-                    android:text="0"/>
+                    android:text="0" />
 
             </LinearLayout>
 
@@ -266,7 +258,7 @@
                     android:onClick="addCornerForTeamB"
                     android:text="@string/Corner"
                     android:textColor="@color/colorPrimaryLight"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/team_b_corner"
@@ -274,7 +266,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="@dimen/StandardPadding"
-                    android:text="0"/>
+                    android:text="0" />
 
 
             </LinearLayout>
