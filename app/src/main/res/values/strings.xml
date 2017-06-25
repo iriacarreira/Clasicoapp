@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Clasicoapp</string>
+    <string name="TeamA">FC Barcelona</string>
+    <string name="TeamB">Real Madrid</string>
+    <string name="Goal">GOALS</string>
+    <string name="Penalty">PENALTY</string>
+    <string name="Corner">Corner</string>
+    <string name="Shot">Shots</string>
+</resources>

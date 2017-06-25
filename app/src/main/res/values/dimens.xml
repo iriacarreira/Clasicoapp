@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="TextTeam">14dp</dimen>
+    <dimen name="TextScore">56dp</dimen>
+    <dimen name="StandardPadding">10dp</dimen>
+    <dimen name="cardWidth">25dp</dimen>
+    <dimen name="cardHeight">35dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="StandardLayout">24dp</dimen>
+    <dimen name="image_dimensions">80dp</dimen>
+    <dimen name="minimum_padding">1dp</dimen>
+    <dimen name="bottom_padding">12dp</dimen>
+    <dimen name="medium_padding">4dp</dimen>
+    <dimen name="one_dim">1dp</dimen>
+    <dimen name="margin_bottom">8dp</dimen>
+
+</resources>
